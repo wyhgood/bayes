@@ -1,0 +1,7 @@
+import thulac
+
+thu1 = thulac.thulac()
+
+text = thu1.cut("联系微信号", text=True)
+
+print(text)
